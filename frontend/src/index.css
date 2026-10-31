@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* ── Neo-Brutalist global overrides ─────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  border-radius: 0 !important; /* No rounded corners — strict Neo-Brutalist rule */
+}
+
+body {
+  margin: 0;
+  background-color: #f5f5f0;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
